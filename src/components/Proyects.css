@@ -1,0 +1,14 @@
+.Proyects{
+    grid-area: Proyects;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+@media (max-width: 1240px) {
+
+    .Proyects{
+        display: flex;
+        flex-direction: column;
+    }
+}

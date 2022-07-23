@@ -1,0 +1,26 @@
+.Technologies{
+    grid-area: Technologies;
+    margin: auto;
+    color:#D0D0D0;
+}
+
+ul{
+    margin-top: 20px;
+    font-size: 17px;
+    overflow-y: hidden;
+}
+p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.fav li:hover{
+    color:#1db954;
+    transform: scale(1.1);
+    transition: ease-in 0.5s;
+    cursor:context-menu;
+}
+
+li{
+    margin-right: 7px;
+}

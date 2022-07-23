@@ -1,0 +1,77 @@
+.NavBar{
+    height: 70px;
+    width: 100vw;
+    background-color: #121212;
+    color:#d0d0d0;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid #414141;
+    font-size: 17px;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    position:fixed;
+    z-index: 1;
+}
+
+p{
+    align-self: center;
+}
+
+ul{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+
+    padding: 10px;
+    display: inline-flex;
+    justify-self: flex-end;
+    padding-right: 0;
+}
+
+.menu{
+    display:flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.menu li:hover{
+    color:#1db954;
+    cursor:pointer;
+}
+
+@media (min-width: 1101px){
+    .hamburguer{
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .NavBar ul{
+        background-color: #121212;
+        flex-direction: column;
+        position: fixed;
+        top:50px;
+        width: 100% ;
+        left: 100%;
+        align-items: center;
+        padding: 20px 0;
+        overflow-y: auto;
+    }
+
+    .isVisible{
+        left: 0% !important;
+    }
+
+    .hamburguer{
+        position: fixed;
+        top:38px;
+        right: 25vw;
+    }
+
+  }
+
+

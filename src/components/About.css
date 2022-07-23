@@ -1,0 +1,52 @@
+.About{
+    grid-area: About;
+    justify-self: center;
+    align-self: center;
+    background-color: #191919;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "aboutT img" "text1 img";
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.AboutT{
+    font-size: 30px;
+    grid-area: aboutT;
+    align-self: center;
+}
+
+.text{
+    grid-area: text1;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+img{
+    grid-area: img;
+    justify-self: end;
+}
+
+p{
+    color:#d0d0d0;
+}
+
+.imgE{
+    clip-path: polygon(0 0, 80% 0, 100% 100%, 20% 100%);
+}
+
+@media (max-width:930px) {
+    .About{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imgE{
+        margin:50px 50px;
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    }
+}

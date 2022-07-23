@@ -1,0 +1,58 @@
+.Proyect{
+    background-color: #191919;
+    height: 200px;
+    width: 356px;
+    filter:grayscale();
+    padding-left: 15px;
+    padding-right: 15px;
+    align-self: center;
+    justify-self: center;
+}
+
+.Proyects a{
+    align-self: center;
+    justify-self: center;
+}
+
+.end{
+    justify-self: end;
+}
+.Proyect:hover{
+    transform: scale(1.02);
+    transition: all ease-in 0.5s;
+    filter:none;
+}
+
+@media (max-width: 1260px) {
+
+    .Proyect{
+        transform: scale(0.5);
+    }
+
+    .Proyect:hover{
+        transform: scale(0.55);
+    }
+}
+
+@media (max-width: 1560px) {
+
+    .Proyect{
+        transform: scale(0.6);
+    }
+
+    .Proyect:hover{
+        transform: scale(0.65);
+    }
+}
+
+.Proyect::-webkit-scrollbar-thumb {
+    background-color: #080808;
+    border-radius: 30%;
+}
+.Proyect::-webkit-scrollbar {
+    width: 10px;
+}
+
+.hovering{
+    font-size: 17px;
+}
