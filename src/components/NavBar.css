@@ -14,6 +14,8 @@
     z-index: 1;
 }
 
+
+
 p{
     align-self: center;
 }
@@ -39,6 +41,11 @@ li{
 }
 
 .menu li:hover{
+    color:#1db954;
+    cursor:pointer;
+}
+
+.menu li a:hover{
     color:#1db954;
     cursor:pointer;
 }
