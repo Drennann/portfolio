@@ -57,3 +57,11 @@
     margin-top: 2px;
     font-size: 17px;
 }
+
+.hovering::-webkit-scrollbar-thumb {
+    background-color: #080808;
+    border-radius: 30%;
+}
+.hovering::-webkit-scrollbar {
+    width: 10px;
+}
