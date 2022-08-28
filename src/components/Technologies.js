@@ -20,6 +20,9 @@ export default function Technologies(){
                     HTML
                 </li>
                 <li>
+                    Redux
+                </li>
+                <li>
                     NodeJS
                 </li>
                 <li>
@@ -48,9 +51,6 @@ export default function Technologies(){
             <ul className="fav">
                 <li>
                     Typescript 
-                </li>
-                <li>
-                    Redux
                 </li>
                 <li>
                     React-Native
