@@ -1,12 +1,13 @@
 .Proyect{
     background-color: #191919;
-    height: 200px;
-    width: 356px;
+    height: 220px;
+    width: 392px;
     filter:grayscale();
     padding-left: 15px;
     padding-right: 15px;
     align-self: center;
     justify-self: center;
+    overflow: hidden;
 }
 
 .Proyects a{
