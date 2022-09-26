@@ -13,6 +13,7 @@
 .Proyects a{
     align-self: center;
     justify-self: center;
+    overflow: hidden;
 }
 
 .end{
