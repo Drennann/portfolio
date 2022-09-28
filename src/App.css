@@ -13,7 +13,7 @@
   display: grid;
   width: 100vw;
   grid-template-columns: 25vw auto 25vw;
-  grid-template-rows: 100vh calc(100vh - 70px) calc(100vh - 70px) calc(100vh - 70px);
+  grid-template-rows: 100vh calc(100vh - 70px) calc(150vh - 70px) calc(100vh - 70px);
   grid-template-areas: ". Home ." 
                        ". About ." 
                        ". Proyects ."
